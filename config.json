@@ -1,6 +1,6 @@
 {
   "iosMinVersion": 1,
-  "androidMinVersion": 75,
+  "androidMinVersion": 1,
   "minVersionMessage": "Please update RoadVoice to continue using the app.",
   "hiddenBrands": [],
   "announcements": []
