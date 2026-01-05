@@ -1,6 +1,7 @@
 {
-  "minVersion": 69,
+  "iosMinVersion": 1,
+  "androidMinVersion": 1,
   "minVersionMessage": "Please update RoadVoice to continue using the app.",
-  "hiddenBrands": ["mcdonalds", "burger_king"],
+  "hiddenBrands": [],
   "announcements": []
 }
