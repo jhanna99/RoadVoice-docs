@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - RoadVoice</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a2e;
+            color: #ffffff;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .back {
+            color: #4ade80;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #4ade80;
+            margin-bottom: 30px;
+        }
+        .faq-item {
+            background: #16213e;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .question {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .answer {
+            color: #a0a0a0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← Back</a>
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-item">
+            <p class="question">How do I select my favorite brands?</p>
+            <p class="answer">Go to the Fav tab and tap on any brand to toggle it as a favorite. Your favorites will be announced as you approach them and shown on the map.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">Does RoadVoice work with navigation apps?</p>
+            <p class="answer">Yes! RoadVoice works best alongside Waze or Google Maps. The announcements will play over your navigation audio.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">How do I import my own locations?</p>
+            <p class="answer">Tap the menu (☰) on the Home screen and select "Import Custom POIs". Upload a CSV file with columns: name, lat, lon (and optionally city, state, street_address).</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">Why don't I hear announcements?</p>
+            <p class="answer">Make sure announcing is turned ON (green "Start Announcing" button on Home screen). Also check that the speed gate setting isn't blocking announcements when you're moving slowly.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">How far ahead does RoadVoice look for POIs?</p>
+            <p class="answer">You can configure this in Settings. The default is 5 miles ahead, but you can set it anywhere from 1 to 20 miles.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">Does RoadVoice drain my battery?</p>
+            <p class="answer">RoadVoice uses GPS which does use battery, but it's similar to using any navigation app. For long trips, we recommend keeping your phone plugged in.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">Where does the POI data come from?</p>
+            <p class="answer">POI data comes from AllThePlaces.xyz, an open-source project that collects location data from brand websites. The data is licensed under CC-0 (public domain).</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="question">Can I use RoadVoice in Canada?</p>
+            <p class="answer">Yes! RoadVoice includes POI data for both the United States and Canada.</p>
+        </div>
+    </div>
+</body>
+</html>
